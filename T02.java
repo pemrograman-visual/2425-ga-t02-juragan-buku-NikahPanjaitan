@@ -1,6 +1,5 @@
 // 12S24041-NIKAH SUCHIA PANJAITAN
 //12S24011-PEDRO SIMANGUNSONG
-
 import java.util.*;
 import java.lang.Math;
 
