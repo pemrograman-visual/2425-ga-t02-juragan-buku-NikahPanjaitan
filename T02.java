@@ -1,7 +1,6 @@
 // 12S24041-NIKAH SUCHIA PANJAITAN
 //12S24011-PEDRO SIMANGUNSONG
 
-
 import java.util.*;
 import java.lang.Math;
 
@@ -24,19 +23,19 @@ public class T02 {
         stok = Integer.parseInt(input.nextLine());
         rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7) {
-            kategori = "best pick";
+            kategori = "Best pick";
         } else {
             if (rating > 4.5 && rating < 4.7) {
-                kategori = "must read";
+                kategori = "Must read";
             } else {
                 if (rating > 4.0 && rating < 4.5) {
-                    kategori = "recommended";
+                    kategori = "Recommended";
                 } else {
                     if (rating > 3.0 && rating < 4.0) {
-                        kategori = "average";
+                        kategori = "Average";
                     } else {
                         if (kategori < 3.0) {
-                            kategori = "low";
+                            kategori = "Low";
                         } else {
                             kategori = "";
                         }
@@ -44,6 +43,6 @@ public class T02 {
                 }
             }
         }
-        System.out.println(iSBN + "|" + judul + "|" + penulis + "/" + tahunterbit + "|" + penerbit + "|" + formatbukuelektronik + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + rating + "|" + kategori);
+        System.out.println(iSBN + "|" + judul + "|" + penulis + "|" + tahunterbit + "|" + penerbit + "|" + formatbukuelektronik + "|" + hargapembelian + "|" + minimummargin + "|" + stok + "|" + rating + "|" + kategori);
     }
 }
